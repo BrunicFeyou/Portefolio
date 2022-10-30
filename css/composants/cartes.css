@@ -1,0 +1,61 @@
+.carte-act1{
+    margin-left: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    border: thick double black;
+    position: relative;
+    top: 50px;
+    
+    
+    
+
+}
+
+.carte-act2 {
+   /* display: block;*/
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    margin-left: 20px;
+    position: relative;
+    top: 200px;
+    margin: 20px 20px;
+    border: thick double black;
+   
+
+
+}
+.carte-act3{
+    
+
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    position: relative;
+    top: 500px;
+    border:  solid black ;
+    /*margin-left: 20px;*/
+    border: thick double black;
+   
+
+}
+
+
+.carte-act1 {
+margin-left: 20px;
+
+
+
+}
+
+.carte-act2{
+
+
+
+}
+
+.carte-act3 {
+
+
+}

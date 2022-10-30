@@ -1,0 +1,106 @@
+@import url(composants/boutons.css);
+@import url(composants/inputs.css);
+@import url(composants/Navbar.css);
+@import url(composants/texte.css); 
+@import url(composants/containers.css);
+@import url(composants/images.css);
+@import url(composants/cartes.css);
+@import url(composants/sous-contenaires.css);
+@media  (max-width: 992px){
+    .carte-acteur{
+        grid-template-columns:1fr 1fr 1fr ;
+    }
+
+}
+
+@media  (max-width: 992px){
+    .carte-acteur {
+        grid-template-columns: 1fr  ;
+    }
+
+}
+
+ 
+* { 
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: url(../images/fond\ blan.jpg);
+    background-size: cover;
+}
+
+.carousel-item  {
+  /* width: auto;*/
+    height: 400px;
+    object-fit: cover;
+    background-position: 50%;
+
+}
+.d-block {
+    max-height: 100%;
+    max-width: 100%;
+    /*object-fit: contain;*/
+
+}
+.apropos{
+    margin: auto;
+
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+
+    
+}
+ .hollywood{
+    /*margin: auto;*/
+    padding-top: 20px;
+    padding-left: 20%;
+    
+
+    
+ }
+
+ .action-coupé{
+    padding-left: 30%;
+    padding-top: 20px;
+    height: 200px;
+    /*margin: 150px;*/
+
+    
+ }
+
+
+.film1 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-left: 30%;
+    /*margin: auto;*/
+   margin-bottom: 44px;
+    
+
+}
+
+.film2{
+width: 200px;
+height: 200px;
+object-fit: cover;
+margin-left: 28%;
+/*margin: auto;*/
+margin-bottom: 44px;
+
+}
+
+.film3 {
+    /*margin: auto;*/
+   margin-left: 15%;
+    margin-bottom: 44px;
+    height: 200px;
+}
+
