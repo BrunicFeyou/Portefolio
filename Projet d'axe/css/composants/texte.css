@@ -1,0 +1,152 @@
+
+
+.colin {
+    font-size: 70px;
+    color: white;
+    font-style: italic;
+    object-fit: cover;
+    opacity: 1;
+    transition: 2s;
+
+}
+.colin:hover{
+    opacity: 0;
+}
+
+
+.acteur{
+    font-size: 30px;
+    color: white;
+    font-style: italic;
+    opacity: 1;
+    transition: 2s;
+     
+}
+
+.acteur:hover{
+    opacity: 0;
+}
+.lui {
+    
+    width: 50%;
+   /* text-align: center;*/
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    position: relative;
+    top: 200px;
+    z-index: 10;
+    margin: auto;
+    
+}
+
+
+.paragraphe-description{
+   /* width: 80%;*/
+    margin-bottom: 100px;
+    margin-top: 100px;
+    animation-duration: 7s;
+    animation-name: glissement;
+    animation-iteration-count: infinite;
+}
+ @keyframes glissement {
+    from{
+        margin-left: 100%;
+        width: 300%;
+
+    }
+    to{
+        margin: 0%;
+        width: 100%;
+    }
+    
+ }
+
+.grand-titre{
+    text-align: center;
+    
+
+}
+
+.titres-cartes {
+    margin: 20px 20px;
+    text-decoration: underline;
+    text-align: center;
+   font-style: italic;
+}
+
+.description-cartes {
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-style: italic;
+
+   
+}
+.best-succès{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    color: black;
+}
+
+.Titre{
+    text-decoration: underline;
+    text-align: center;
+    color: black;
+}
+
+.résumé-film{
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+margin: 10px 10px;
+color: black;
+}
+
+
+
+.best-succès:hover {
+    color: white;
+}
+
+.Titre:hover {
+ color: white;
+}
+
+.résumé-film:hover{
+ color: white;
+}
+
+.Merci{
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 200px;
+    color: black;
+    animation: color 2s;
+    animation-iteration-count: infinite;
+  
+    
+}
+@keyframes color {
+    0% {
+        color: purple;
+    }
+    50% {
+        color: yellow;
+    }
+    100% {
+        color: gray;
+    }
+}
+.réseau-sociaux{
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    color: white;
+}
+
+
+
+
+  

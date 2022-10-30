@@ -1,0 +1,19 @@
+
+.twitter{
+    height: 40px;
+}
+.facebook{
+    height: 40px;
+}
+.insta{
+    height: 40px;
+    object-fit: cover;
+}
+
+.btn {
+    color: black;
+    text-decoration: dashed;
+    font-style: italic;
+   font-size: 20px;
+     
+}

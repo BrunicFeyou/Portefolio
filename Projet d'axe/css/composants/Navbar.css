@@ -1,0 +1,22 @@
+.barmenu {
+    background-image: url("../../images/lumiere.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: sticky;
+    border: 60px black;
+    margin-bottom: 20px;
+    background-color: grey;
+    
+   top: 0%;
+
+   }
+   .boutons { 
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    justify-content: center;
+    padding-bottom: 20px ;
+
+    
+     
+}
