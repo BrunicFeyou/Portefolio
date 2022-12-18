@@ -36,12 +36,12 @@ div{
     display: flex;
     border-style: dashed;
     justify-content: center;
-   transition: 3s;
-   width: auto;
+    transition: 3s;
+    width: auto;
 
 }
 
-div:hover {
+/*div:hover {
     width: 200px ;
    
-}
+}*/

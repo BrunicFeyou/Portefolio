@@ -49,7 +49,7 @@
     animation-name: glissement;
     animation-iteration-count: infinite;
 }
- @keyframes glissement {
+ /*@keyframes glissement {
     from{
         margin-left: 100%;
         width: 300%;
@@ -60,12 +60,17 @@
         width: 100%;
     }
     
- }
+ }*/
 
 .grand-titre{
     text-align: center;
+    transition: all 2s;
     
 
+}
+.animate{
+    transform: translateX(500px);
+   /* transform: translateX(-500px);*/
 }
 
 .titres-cartes {
@@ -82,6 +87,18 @@
     font-style: italic;
 
    
+}
+
+.more {
+    color: brown;
+    
+}
+.more1 {
+    color: green;
+}
+
+.more2 {
+    color: rgb(228, 166, 19);
 }
 .best-succès{
     text-align: center;
@@ -118,6 +135,9 @@ color: black;
  color: white;
 }
 
+.animation-merci{
+    transform: translateX(100px);
+}
 .Merci{
     text-decoration: underline;
     text-align: center;

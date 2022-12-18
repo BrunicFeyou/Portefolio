@@ -12,6 +12,16 @@
 
 }
 
+/*.carte-act1A{
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    border: thick double green;
+    position: relative;
+    top: 50px;
+}*/
+
 .carte-act2 {
    /* display: block;*/
     justify-content: center;
@@ -49,13 +59,5 @@ margin-left: 20px;
 
 }
 
-.carte-act2{
 
 
-
-}
-
-.carte-act3 {
-
-
-}

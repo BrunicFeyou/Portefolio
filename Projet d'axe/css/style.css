@@ -3,7 +3,7 @@
 @import url(composants/Navbar.css);
 @import url(composants/texte.css); 
 @import url(composants/containers.css);
-@import url(composants/images.css);
+/*@import url(composants/images.css);*/
 @import url(composants/cartes.css);
 @import url(composants/sous-contenaires.css);
 @media  (max-width: 992px){
@@ -102,5 +102,14 @@ margin-bottom: 44px;
    margin-left: 15%;
     margin-bottom: 44px;
     height: 200px;
+}
+
+.white {
+    background-color: white;
+}
+
+.nightMode {
+    background-color: rgb(18, 18, 87);
+    color: bisque;
 }
 
